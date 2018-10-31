@@ -150,7 +150,7 @@
             <!-- FIM DA SEÇÃO: FEATURES -->
 
             <!-- INICIO DA SEÇÃO: TOURS -->
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
 
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
@@ -188,7 +188,7 @@
                                         <p class="card__price-only">Apenas</p>
                                         <p class="card__price-value">R$299</p> 
                                     </div>
-                                    <a href="#" class="btn btn--white">Reservar</a> 
+                                    <a href="#popup" class="btn btn--white">Reservar</a> 
                                 </div>
                             </div>                         
                         </div>
@@ -222,7 +222,7 @@
                                         <p class="card__price-only">Apenas</p>
                                         <p class="card__price-value">R$497</p>                                                                                    
                                     </div>
-                                    <a href="#" class="btn btn--white">Reservar</a>
+                                    <a href="#popup" class="btn btn--white">Reservar</a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +259,7 @@
                                             R$697
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn--white">Reservar</a>
+                                    <a href="#popup" class="btn btn--white">Reservar</a>
                                 </div>
                             </div>
                         </div>
@@ -267,7 +267,7 @@
                 </div>
 
                 <div class="u-center-text u-margin-top-huge">
-                    <a href="#" class="btn btn--green">Descubra todas as excursões</a>
+                    <a href="#popup" class="btn btn--green">Descubra todas as excursões</a>
                 </div>
             </section> 
             <!-- FIM DA SEÇÃO: TOURS -->
@@ -403,5 +403,29 @@
             </div>
         </footer>            
         <!-- FIM DO FOOTER -->
+
+        <!-- POP UP DA SEÇÃO CARD -->
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Faça uma reserva agora!</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Importante &ndash; Por favor, leia  estes termos antes de agendar</h3>
+                    <p class="popup__text u-margin-bottom-medium">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Alias perferendis fugit harum animi 
+                        dignissimos nihil eligendi pariatur assumenda 
+                        expedita fuga. Repudiandae debitis iure non commodi enim ut at obcaecati beatae!
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales nibh ac condimentum egestas. 
+                        Cras elementum bibendum arcu vitae faucibus.
+                    </p>
+                    <a href="#" class="btn btn--green">Agende agora</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
