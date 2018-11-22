@@ -1,3 +1,13 @@
+/*
+Resolution      Device Screen       Mixin Argument
+--------------------------------------------------
+0 - 600px      | Phone             |  phone
+600 - 900px    | Tablet portrait   |  tab-port
+900 - 1200px   | Tablet landscape  |  tab-land
+[1200 - 1800]  | Normal Desktop    |   - - -
+1800 - more    | Big Desktop       |  big-desktop
+--------------------------------------------------
+*/
 @keyframes moveItLeft {
   0% {
     opacity: 0;
